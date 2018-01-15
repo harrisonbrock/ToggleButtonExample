@@ -12,6 +12,8 @@
 		3EBB3ECE200D343D00245C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBB3ECC200D343D00245C89 /* Main.storyboard */; };
 		3EBB3ED0200D343D00245C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBB3ECF200D343D00245C89 /* Assets.xcassets */; };
 		3EBB3ED3200D343D00245C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBB3ED1200D343D00245C89 /* LaunchScreen.storyboard */; };
+		3EBB3EDC200D371800245C89 /* HBToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB3EDB200D371800245C89 /* HBToggleButton.swift */; };
+		3EBB3EDF200D3A3100245C89 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB3EDE200D3A3100245C89 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3EBB3ECF200D343D00245C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EBB3ED2200D343D00245C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EBB3ED4200D343D00245C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EBB3EDB200D371800245C89 /* HBToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBToggleButton.swift; sourceTree = "<group>"; };
+		3EBB3EDE200D3A3100245C89 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		3EBB3EC7200D343D00245C89 /* ToggleButtonExample */ = {
 			isa = PBXGroup;
 			children = (
+				3EBB3EDD200D3A1200245C89 /* Con */,
+				3EBB3EDA200D369500245C89 /* UI Controls */,
 				3EBB3EC8200D343D00245C89 /* AppDelegate.swift */,
 				3EBB3ECA200D343D00245C89 /* ViewController.swift */,
 				3EBB3ECC200D343D00245C89 /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				3EBB3ED4200D343D00245C89 /* Info.plist */,
 			);
 			path = ToggleButtonExample;
+			sourceTree = "<group>";
+		};
+		3EBB3EDA200D369500245C89 /* UI Controls */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB3EDB200D371800245C89 /* HBToggleButton.swift */,
+			);
+			path = "UI Controls";
+			sourceTree = "<group>";
+		};
+		3EBB3EDD200D3A1200245C89 /* Con */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB3EDE200D3A3100245C89 /* Colors.swift */,
+			);
+			path = Con;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EBB3ECB200D343D00245C89 /* ViewController.swift in Sources */,
+				3EBB3EDF200D3A3100245C89 /* Colors.swift in Sources */,
+				3EBB3EDC200D371800245C89 /* HBToggleButton.swift in Sources */,
 				3EBB3EC9200D343D00245C89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
