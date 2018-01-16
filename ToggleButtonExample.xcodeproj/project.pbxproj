@@ -58,7 +58,7 @@
 		3EBB3EC7200D343D00245C89 /* ToggleButtonExample */ = {
 			isa = PBXGroup;
 			children = (
-				3EBB3EDD200D3A1200245C89 /* Con */,
+				3EBB3EDD200D3A1200245C89 /* Constants */,
 				3EBB3EDA200D369500245C89 /* UI Controls */,
 				3EBB3EC8200D343D00245C89 /* AppDelegate.swift */,
 				3EBB3ECA200D343D00245C89 /* ViewController.swift */,
@@ -78,12 +78,12 @@
 			path = "UI Controls";
 			sourceTree = "<group>";
 		};
-		3EBB3EDD200D3A1200245C89 /* Con */ = {
+		3EBB3EDD200D3A1200245C89 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
 				3EBB3EDE200D3A3100245C89 /* Colors.swift */,
 			);
-			path = Con;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

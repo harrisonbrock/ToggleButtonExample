@@ -45,7 +45,7 @@ class HBToggleButton: UIButton {
     fileprivate func setButtonValues(_ bool: Bool) {
         
         let color = bool ? Colors.toggolButton : .clear
-        let title = bool ? "On" : "Off"
+        let title = bool ? "Button is On" : "Button is Off"
         let titleColor = bool ? . white : Colors.toggolButton
         
         setTitle(title, for: .normal)
