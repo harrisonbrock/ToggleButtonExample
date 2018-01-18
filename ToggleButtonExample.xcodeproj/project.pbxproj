@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E26BB3120104C590009843C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3EBB3EC5200D343D00245C89 /* ToggleButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBB3EC8200D343D00245C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EBB3ECA200D343D00245C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		3EBB3EBC200D343D00245C89 = {
 			isa = PBXGroup;
 			children = (
+				3E26BB3120104C590009843C /* README.md */,
 				3EBB3EC7200D343D00245C89 /* ToggleButtonExample */,
 				3EBB3EC6200D343D00245C89 /* Products */,
 			);
