@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// A struct to hold colors of view controls
 struct Colors {
     static let toggolButton = UIColor(red: 29.0/255.0, green: 161.0/255, blue: 242.0/255, alpha: 1.0)
 }

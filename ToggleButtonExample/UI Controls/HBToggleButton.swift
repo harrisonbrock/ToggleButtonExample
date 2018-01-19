@@ -28,9 +28,11 @@ class HBToggleButton: UIButton {
         layer.borderColor = Colors.toggolButton.cgColor
         layer.cornerRadius = frame.size.height / 2
         
+        // set the title color using our constant
         setTitleColor(Colors.toggolButton, for: .normal)
         addTarget(self, action: #selector(HBToggleButton.buttonPressed), for: .touchUpInside)
     }
+    
     
     @objc func buttonPressed() {
         activateButton(bool: !isOn)
@@ -42,10 +44,14 @@ class HBToggleButton: UIButton {
         setButtonValues(bool)
     }
     
+    // set button values
     fileprivate func setButtonValues(_ bool: Bool) {
         
+        // this is the button background color base on the bool
         let color = bool ? Colors.toggolButton : .clear
-        let title = bool ? "Button is On" : "Button is Off"
+        // this is the button title base on the bool
+        let title = bool ? "Following" : "Follow"
+        // this is the button title color base on the bool
         let titleColor = bool ? . white : Colors.toggolButton
         
         setTitle(title, for: .normal)
